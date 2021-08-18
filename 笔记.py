@@ -10,3 +10,7 @@ L3.extend(['fa','la'])   #['mi', 're', 'fa', 'la']。 mutate list with L.extend(
 
 
 #('cloudy'), ('cold',) with a commas:tuple ; without:string
+------------------------
+
+assert not len(grades)==0,'no grades data'
+#not len(grades)==0 :means what the function expects
