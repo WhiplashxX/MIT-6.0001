@@ -14,3 +14,11 @@ L3.extend(['fa','la'])   #['mi', 're', 'fa', 'la']。 mutate list with L.extend(
 
 assert not len(grades)==0,'no grades data'
 #not len(grades)==0 :means what the function expects
+------------------------
+__add__(self, other) -> self + other
+__sub__(self, other) -> self - other
+__eq__(self, other)  -> self == other
+__lt__(self, other)  -> self < other
+__len__(self)        -> len(self)
+__str__(self)        -> print self
+
