@@ -21,4 +21,5 @@ __eq__(self, other)  -> self == other
 __lt__(self, other)  -> self < other
 __len__(self)        -> len(self)
 __str__(self)        -> print self
-
+------------------------
+if c in 'abcdefghijklmnopqrstuvwxyz':#judge a char is whether a letter or not
