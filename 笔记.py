@@ -31,3 +31,6 @@ def set_name(self,newname=""):
   self.name = newname
 #we can pass no parameter in,that's OK
 
+----------------------
+class variables are typically defined inside the class defintion but outside the __init__
+#is shared among all instances
