@@ -23,3 +23,11 @@ __len__(self)        -> len(self)
 __str__(self)        -> print self
 ------------------------
 if c in 'abcdefghijklmnopqrstuvwxyz':#judge a char is whether a letter or not
+  
+  
+-----------------------
+DEFAULT ARGUMENTS
+def set_name(self,newname=""):
+  self.name = newname
+#we can pass no parameter in,that's OK
+
