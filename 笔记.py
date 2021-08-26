@@ -34,3 +34,13 @@ def set_name(self,newname=""):
 ----------------------
 class variables are typically defined inside the class defintion but outside the __init__
 #is shared among all instances
+
+----------------------
+def linear_search(L,e):
+  found = False
+  for i in range(len(L)):
+    if e==L[i]:
+      found = True
+  return found
+#speed up a little by returning True here,but speed up doesn't impact worst case 
+#the order of growth captures what's the worst case behavior
